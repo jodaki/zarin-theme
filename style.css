@@ -36,7 +36,26 @@ body{
     color: #28457b;
     background-color: #fbf7d9;
 }
-
+.btn-warning{
+    background: transparent linear-gradient(
+270deg
+,#ffd900,#ffe422) 0 0 no-repeat padding-box;
+    border-radius: 10px;
+    border: none;
+}
+.btn-warning:hover{
+    background: transparent linear-gradient(
+60deg
+,#ffd900,#ffe422) 0 0 no-repeat padding-box;
+    border-radius: 10px;
+    border: none;
+}
+.btn-light {
+    color: #fff;
+    background-color: #f8f9fa38;
+    border: none;
+    border-radius: 10px;
+}
 
 /* navbar */
 
