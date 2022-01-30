@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Dana;
+    src: url(/Font/dana-regular.woff);
+}
+@font-face {
+    font-family: Dana-bold;
+    src: url(./Font/dana-bold.woff);
+}
+body{
+    font-family: Dana;
+}
+.fw-bold{
+    font-family: Dana-bold;
+}
+
+/* border-rudios */
+.br-20{
+    border-radius: 20px;
+
+}
+.br-25{
+    border-radius: 25px;
+
+}
+/* button */
+.btn-primary{
+    color: #28457b;
+    background-color: rgba(232,239,254,.6);
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    padding: 10px 27px;
+
+}
+.btn-primary:hover{
+    color: #28457b;
+    background-color: #fbf7d9;
+}
+
+
+/* navbar */
+
+.bg-glass{
+    padding: 10px 0 10px 0;
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(255, 255, 255, 0.329);
+    border-bottom: solid 1px #909090;
+}
+
+/* conteiner schin */
+
+.bg-blue-gradiant{
+    background-image: linear-gradient(135deg,#21254e,#2b4a83);
+}
